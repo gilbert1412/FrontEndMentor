@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+}
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+  }
+  *, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+    }
+:root{
+    --Cyan: hsl(179, 62%, 43%);
+    --Bright-Yellow: hsl(71, 73%, 54%);
+
+    --Light-Gray: hsl(204, 43%, 93%);
+    --Grayish-Blue: hsl(218, 22%, 67%);
+}
+body{
+
+    background-color: var(--Grayish-Blue);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: green;
+    height: 100vh;
+    align-items: center;
+    background-color: var(--Grayish-Blue);
+
+}
+.card{
+    background-color: var(--Light-Gray);
+   
+    
+    border-radius: 20px;
+    width: 800px;
+    height: 550px;
+    overflow: hidden;
+
+     /* Sombra normal */
+     box-shadow: 2px 2px 10px #666;
+   
+}
+.card-header{
+    margin: 30px;
+    align-items: center;
+    
+ 
+}
+.card-header h1{
+    color: var(--Cyan);
+}
+.card-header span{
+    color: var(--Bright-Yellow);
+    font-weight:700;
+    font-size: 25px;
+   
+}
+.card-header p{
+    margin-top: 12px;
+    color:var(--Grayish-Blue);
+    font-weight: 400;
+}
+.card-body{
+    display: flex;
+    margin-top: -30px;
+    
+}
+.card-body-primero{
+    background-color: var(--Cyan);
+    width: 50%;
+    height: 360px;
+    padding: 30px;
+    
+}
+
+
+.card-body-primero h2,p{
+    color: var(--Light-Gray);
+    margin-bottom: 55px;
+    
+    font-weight: 400;
+}
+
+
+.card-body-primero span{
+    font-weight: 700;
+    font-size: 30px;
+}
+.card-body-primero-costo{
+    color: hsl(222, 19%, 74%);
+}
+.card-body-primero BUTTON{
+    background-color: var(--Bright-Yellow);
+    width: 100%;
+  
+    padding: 15px;
+    border-radius: 10px;
+    border: white;
+    color: var(--Light-Gray);
+    font-size:15px;
+}
+.card-body-segundo{
+    background-color: hsl(179, 28%, 55%);
+    width: 50%;
+    height: 360px;
+    padding: 30px;
+}
+.card-body-segundo h2,ul,li{
+    padding-bottom: 25px;
+    color: var(--Light-Gray);
+    font-weight: 400;
+}
+.card-body-segundo h2{
+    font-weight: 700;
+}
+.card-body-segundo li{
+    font-size: 2opx;
+   
+}
